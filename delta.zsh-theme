@@ -1,6 +1,6 @@
 # delta.zsh-theme
 # Repo: https://github.com/dongri/delta.zsh-theme
-# Direct Link: https://github.com/dongri/delta.zsh-theme/delta.zsh-theme
+# Direct Link: https://github.com/dongri/delta-zsh-theme/blob/master/delta.zsh-theme
 
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
