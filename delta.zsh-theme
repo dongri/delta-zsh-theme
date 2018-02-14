@@ -8,7 +8,7 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 # primary prompt
 PROMPT='$FG[118]δ $FG[032]%c\
 $(git_prompt_info) \
-$FG[105]%(!.#.➤)%{$reset_color%} '
+$my_gray%(!.#.➤)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 RPS1='${return_code}'
 
