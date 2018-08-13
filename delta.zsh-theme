@@ -17,16 +17,16 @@ eval my_gray='$FG[008]'
 eval my_orange='$FG[214]'
 
 # right prompt
-if type "virtualenv_prompt_info" > /dev/null
-then
-	# RPROMPT='$(virtualenv_prompt_info)$my_gray%n@%m%{$reset_color%}%'
-  # RPROMPT='$(virtualenv_prompt_info)$my_gray%~%{$reset_color%}%'
-  RPROMPT='$(virtualenv_prompt_info)$my_gray%*%{$reset_color%}%'
-else
-	# RPROMPT='$my_gray%n@%m%{$reset_color%}%'
-  # RPROMPT='$my_gray%~%{$reset_color%}%'
-  RPROMPT='$my_gray%*%{$reset_color%}%'
-fi
+# if type "virtualenv_prompt_info" > /dev/null
+# then
+# 	# RPROMPT='$(virtualenv_prompt_info)$my_gray%n@%m%{$reset_color%}%'
+#   # RPROMPT='$(virtualenv_prompt_info)$my_gray%~%{$reset_color%}%'
+#   RPROMPT='$(virtualenv_prompt_info)$my_gray%*%{$reset_color%}%'
+# else
+# 	# RPROMPT='$my_gray%n@%m%{$reset_color%}%'
+#   # RPROMPT='$my_gray%~%{$reset_color%}%'
+#   RPROMPT='$my_gray%*%{$reset_color%}%'
+# fi
 
 # git settings
 GIT_DIRTY_COLOR=$FG[133]
